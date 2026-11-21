@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Mike's Shop · Barbershop in Allentown, PA</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#14213d;--red:#c1121f;--cream:#fbf7ef;--line:#e6dccb}
+*{box-sizing:border-box}body{margin:0;font-family:"Work Sans",system-ui,sans-serif;background:var(--cream);color:var(--ink)}
+.demo{background:var(--ink);color:#fff;font-size:12px;text-align:center;padding:6px}.demo a{color:#fff}
+.stripe{height:10px;background:repeating-linear-gradient(45deg,var(--red) 0 14px,#fff 14px 28px,var(--ink) 28px 42px,#fff 42px 56px)}
+nav{display:flex;justify-content:space-between;align-items:center;max-width:1050px;margin:auto;padding:18px 22px}
+nav b{font-family:"Playfair Display";font-size:26px}
+nav a{color:var(--ink);font-weight:600;text-decoration:none;margin-left:18px}
+.hero{max-width:1050px;margin:auto;display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center;padding:40px 22px 60px}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.pole{display:none}}
+.hero h1{font-family:"Playfair Display";font-weight:900;font-size:clamp(44px,8vw,78px);line-height:1;margin:0 0 16px}
+.hero h1 em{color:var(--red);font-style:normal}
+.hero p{font-size:18px;line-height:1.6;margin:0 0 24px;max-width:480px}
+.btn{display:inline-block;background:var(--red);color:#fff;padding:14px 24px;border-radius:6px;font-weight:600;text-decoration:none;margin:0 8px 8px 0}
+.btn.alt{background:none;color:var(--ink);border:2px solid var(--ink)}
+.pole{justify-self:center;width:90px;height:340px;border-radius:45px;border:8px solid var(--ink);overflow:hidden;position:relative}
+.pole i{position:absolute;inset:-200px 0 0;background:repeating-linear-gradient(-45deg,var(--red) 0 22px,#fff 22px 44px,var(--ink) 44px 66px,#fff 66px 88px);animation:spin 3s linear infinite}
+@keyframes spin{to{transform:translateY(124px)}}
+.wrap{max-width:1050px;margin:auto;padding:50px 22px}
+h2{font-family:"Playfair Display";font-size:40px;margin:0 0 8px}.sub{margin:0 0 26px;color:#5c6478}
+.menu{border-top:2px solid var(--ink)}.item{display:flex;justify-content:space-between;gap:12px;padding:18px 0;border-bottom:1px dashed var(--line)}
+.item b{font-size:18px}.item span{color:#5c6478;font-size:14px;display:block}.item i{font-style:normal;font-weight:600;color:var(--red);white-space:nowrap}
+.visit{background:var(--ink);color:#fff}.visit .wrap{display:grid;grid-template-columns:1fr 1fr;gap:26px}@media(max-width:760px){.visit .wrap{grid-template-columns:1fr}}
+.visit h2{color:#fff}.visit p{line-height:1.7}.visit .btn.alt{color:#fff;border-color:#fff}
+iframe{width:100%;height:260px;border:0;border-radius:8px}
+footer{text-align:center;font-size:13px;padding:24px;color:#5c6478}
+</style></head><body>
+<div class="demo">Sample website made by Jason Isaac for Mike's Shop · not the official site yet · <a href="../websites/">get one like this</a></div>
+<div class="stripe"></div>
+<nav><b>Mike's Shop</b><div><a href="#menu">Services</a><a href="#visit">Visit</a></div></nav>
+<div class="hero"><div>
+<h1>Allentown's <em>neighborhood</em> barbershop.</h1>
+<p>Clean cuts, sharp fades and real conversation off Oxford Drive. Walk-ins welcome. Call ahead to skip the wait.</p>
+<a class="btn" href="tel:+19084443951">Call (908) 444-3951</a><a class="btn alt" href="sms:+19084443951">Text the shop</a>
+</div><div class="pole"><i></i></div></div>
+<div class="wrap" id="menu"><h2>Services</h2><p class="sub">Ask in the shop or call for current prices.</p>
+<div class="menu">
+<div class="item"><div><b>Men's Haircut</b><span>Scissor or clipper, styled to finish</span></div><i>Call for price</i></div>
+<div class="item"><div><b>Fade</b><span>Low, mid, high or skin</span></div><i>Call for price</i></div>
+<div class="item"><div><b>Beard Trim & Shape-Up</b><span>Clean lines, hot towel</span></div><i>Call for price</i></div>
+<div class="item"><div><b>Kids' Cut</b><span>12 and under</span></div><i>Call for price</i></div>
+<div class="item"><div><b>Line-Up</b><span>Edge-up between cuts</span></div><i>Call for price</i></div>
+</div></div>
+<div class="visit" id="visit"><div class="wrap"><div>
+<h2>Come through</h2><p>2000 Oxford Dr<br>Allentown, PA</p><p><b>Hours:</b> call for today's hours</p>
+<a class="btn" href="https://maps.google.com/?q=2000+Oxford+Dr+Allentown+PA">Directions</a><a class="btn alt" href="tel:+19084443951">Call</a>
+</div><iframe loading="lazy" src="https://maps.google.com/maps?q=2000%20Oxford%20Dr%20Allentown%20PA&output=embed" title="Map"></iframe></div></div>
+<footer>© Mike's Shop · Allentown, PA · Website by Jason Isaac · (835) 205-5141</footer>
+</body></html>
